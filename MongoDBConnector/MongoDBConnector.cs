@@ -27,5 +27,25 @@ namespace MongoDBConnector
 
             _client = new MongoClient(connectionString);
         }
+
+        /// <summary>
+        /// Pings the MongoDB server to verify connectivity.
+        /// Returns true if successful, false otherwise.
+        /// This method catches exceptions and returns false on failure (simple contract for tests).
+        /// </summary>
+        public async Task<bool> PingAsync()
+        {
+            try
+            {
+                var database = _client.GetDatabase("admin");
+                var command = new BsonDocument("ping", 1);
+                await database.RunCommandAsync<BsonDocument>(command).ConfigureAwait(false);
+                return true;
+            }
+            catch
+            {
+                return false;
+            }
+        }
     }
 }
