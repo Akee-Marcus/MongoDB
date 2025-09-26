@@ -37,4 +37,15 @@ public class MongoDbServiceTests : IAsyncLifetime
         bool result = await connector.PingAsync();
         Assert.True(result);
     }
+
+    [Fact(DisplayName = "PingAsync returns false when connection string is invalid / server not reachable")]
+    public async Task PingAsync_ReturnsFalse_WhenConnectionStringInvalid()
+    {
+        var badConnectionString = "mongodb://localhost:12345";
+        var connector = new MongoDbService(badConnectionString);
+
+        bool result = await connector.PingAsync().ConfigureAwait(false);
+
+        Assert.False(result);
+    }
 }
