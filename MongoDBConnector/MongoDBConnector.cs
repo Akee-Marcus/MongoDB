@@ -10,7 +10,7 @@ namespace MongoDBConnector
     /// - Construct with a Mongo connection string.
     /// - PingAsync() issues a { ping: 1 } command to verify connectivity.
     /// </summary>
-    public class MongoDbService
+    public class MongoDbService : IDBConnector
     {
         private readonly IMongoClient _client;
 
