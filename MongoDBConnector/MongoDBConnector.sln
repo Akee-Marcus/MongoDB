@@ -7,20 +7,54 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MongoDBConnector", "MongoDB
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MongoDBConnector.Test", "..\MongoDBConnector.Test\MongoDBConnector.Test.csproj", "{A22818B4-46F4-4466-9A94-92183BA10A84}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DBConsoleApp", "..\DBConsoleApp\DBConsoleApp.csproj", "{8A21754C-86C2-4411-A5CA-2772D4FD93D4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
 		Release|Any CPU = Release|Any CPU
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{3414DB41-79BA-4FAA-9399-CD078014E452}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{3414DB41-79BA-4FAA-9399-CD078014E452}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3414DB41-79BA-4FAA-9399-CD078014E452}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{3414DB41-79BA-4FAA-9399-CD078014E452}.Debug|x64.Build.0 = Debug|Any CPU
+		{3414DB41-79BA-4FAA-9399-CD078014E452}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{3414DB41-79BA-4FAA-9399-CD078014E452}.Debug|x86.Build.0 = Debug|Any CPU
 		{3414DB41-79BA-4FAA-9399-CD078014E452}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3414DB41-79BA-4FAA-9399-CD078014E452}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3414DB41-79BA-4FAA-9399-CD078014E452}.Release|x64.ActiveCfg = Release|Any CPU
+		{3414DB41-79BA-4FAA-9399-CD078014E452}.Release|x64.Build.0 = Release|Any CPU
+		{3414DB41-79BA-4FAA-9399-CD078014E452}.Release|x86.ActiveCfg = Release|Any CPU
+		{3414DB41-79BA-4FAA-9399-CD078014E452}.Release|x86.Build.0 = Release|Any CPU
 		{A22818B4-46F4-4466-9A94-92183BA10A84}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{A22818B4-46F4-4466-9A94-92183BA10A84}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A22818B4-46F4-4466-9A94-92183BA10A84}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{A22818B4-46F4-4466-9A94-92183BA10A84}.Debug|x64.Build.0 = Debug|Any CPU
+		{A22818B4-46F4-4466-9A94-92183BA10A84}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{A22818B4-46F4-4466-9A94-92183BA10A84}.Debug|x86.Build.0 = Debug|Any CPU
 		{A22818B4-46F4-4466-9A94-92183BA10A84}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A22818B4-46F4-4466-9A94-92183BA10A84}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A22818B4-46F4-4466-9A94-92183BA10A84}.Release|x64.ActiveCfg = Release|Any CPU
+		{A22818B4-46F4-4466-9A94-92183BA10A84}.Release|x64.Build.0 = Release|Any CPU
+		{A22818B4-46F4-4466-9A94-92183BA10A84}.Release|x86.ActiveCfg = Release|Any CPU
+		{A22818B4-46F4-4466-9A94-92183BA10A84}.Release|x86.Build.0 = Release|Any CPU
+		{8A21754C-86C2-4411-A5CA-2772D4FD93D4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8A21754C-86C2-4411-A5CA-2772D4FD93D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8A21754C-86C2-4411-A5CA-2772D4FD93D4}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{8A21754C-86C2-4411-A5CA-2772D4FD93D4}.Debug|x64.Build.0 = Debug|Any CPU
+		{8A21754C-86C2-4411-A5CA-2772D4FD93D4}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{8A21754C-86C2-4411-A5CA-2772D4FD93D4}.Debug|x86.Build.0 = Debug|Any CPU
+		{8A21754C-86C2-4411-A5CA-2772D4FD93D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8A21754C-86C2-4411-A5CA-2772D4FD93D4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8A21754C-86C2-4411-A5CA-2772D4FD93D4}.Release|x64.ActiveCfg = Release|Any CPU
+		{8A21754C-86C2-4411-A5CA-2772D4FD93D4}.Release|x64.Build.0 = Release|Any CPU
+		{8A21754C-86C2-4411-A5CA-2772D4FD93D4}.Release|x86.ActiveCfg = Release|Any CPU
+		{8A21754C-86C2-4411-A5CA-2772D4FD93D4}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
